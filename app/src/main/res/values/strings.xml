@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Suraksha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_admissions">Search Admissions</string>
+    <string name="surkasha">Surkasha</string>
+    <string name="filters">Filters</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter">Enter</string>
+    <string name="name">Name</string>
+    <string name="age">AGE</string>
+    <string name="category">CASTE</string>
+    <string name="mother_s_name">MOTHER\'S NAME</string>
+    <string name="fathers_s_name">FATHERS\'S NAME</string>
+    <string name="number_s_of_siblings">NUMBER\'S OF SIBLINGS</string>
+    <string name="family_occupation">FAMILY OCCUPATION</string>
+    <string name="native_place">NATIVE PLACE</string>
+    <string name="add_child_photo">add child photo</string>
+    <string name="add_child">ADD CHILD</string>
+    <string name="search">Search</string>
+    <string name="child_photo">Child Photo</string>
+    <string name="editable_child_photo">editable child photo</string>
+    <string name="title_activity_child">ChildActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>

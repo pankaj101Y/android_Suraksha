@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Admissions"
+            android:icon="@drawable/admissions"
+            android:title="Admissions" />
+        <item
+            android:id="@+id/Filters"
+            android:icon="@drawable/filter_list"
+            android:title="Filters" />
+
+        <item
+            android:id="@+id/Statics"
+            android:icon="@drawable/statics"
+            android:title="Statics" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/Profile"
+                android:icon="@drawable/profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/LogOut"
+                android:icon="@drawable/log_out"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/surkasha"
+    android:hint="@string/search_admissions"
+    android:layout_height="48dp"
+    android:layout_width="match_parent">
+</searchable>

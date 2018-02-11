@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ks.suraksha.UI.ChildActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="48dp"
+            android:id="@+id/childLayout"
+            >
+
+
+            <ImageView
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:id="@+id/childImage"
+                android:contentDescription="@string/editable_child_photo"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/name_view"
+                android:typeface="monospace"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_margin="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/age_view"
+                android:typeface="monospace"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_margin="16dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/motherName_view"
+                android:typeface="monospace"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_margin="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/fatherName_view"
+                android:typeface="monospace"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_margin="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/siblings_view"
+                android:typeface="monospace"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_margin="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/occupation_view"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:typeface="monospace"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <TextView
+                android:id="@+id/nativePlace_view"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/enrollment_view"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:typeface="monospace">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/aadhar_view"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/aadharReason_view"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:typeface="monospace">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/gender_view"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:typeface="monospace">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/category_view"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="16dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ks.suraksha.UI.AddAdmissionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/addChildLayout"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/enter"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:id="@+id/childImage"
+            android:onClick="addChildImage"
+            android:background="@drawable/layer_list_add"
+            android:contentDescription="@string/add_child_photo"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/name"
+            android:hint="@string/name"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/age"
+            android:hint="@string/age"
+            android:inputType="number"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/motherName"
+            android:hint="@string/mother_s_name"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/fatherName"
+            android:hint="@string/fathers_s_name"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/siblings"
+            android:hint="@string/number_s_of_siblings"
+            android:layout_margin="16dp"
+            android:inputType="number"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/familyOccupation"
+            android:hint="@string/family_occupation"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/nativePlace"
+            android:hint="@string/native_place"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:id="@+id/enrollment_status_spinner">
+
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:id="@+id/aadhar_spinner">
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:id="@+id/genderSpinner">
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:id="@+id/categorySpinner">
+        </Spinner>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:text="@string/add_child"
+            android:onClick="addChild"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
